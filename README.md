@@ -1,18 +1,18 @@
 # internship-task
-##Task completed for TravelTime internship
+## Task completed for TravelTime internship
 
 This is a Scala program used for matching a set of locations (described in two-dimensional coordinates) to it's corresponding regions (described in two-dimensional polygons).
 
-###Requirements:
+### Requirements:
 -Circe library, available from: https://circe.github.io/circe/.
 -Scala installed on your machine
 
-###Input files:
-The program requires two .json input files: one for the regions and one for the locations. Both locations and regions must have a name. Every location must have it's longitude and latitude described as floating point values. Every region must have a polygon described
+### Input files:
+The program requires two .json input files: one for the regions and one for the locations. Both locations and regions must have a name. Every location must have it's longitude and latitude described as floating point values. Every region must have a polygon or polygons described by a set of two-dimensional points
 
-Example of locations input file __locations.json__:
+Example of locations input file ***locations.json***:
 
-'[
+```[
   {
     "name": "location1",
     "coordinates": [
@@ -20,11 +20,12 @@ Example of locations input file __locations.json__:
       54.64057937965808
     ]
   }
-]'
+]
+```
 
-Example of regions input file __regions.json__:
+Example of regions input file ***regions.json***:
 
-'[  
+```[  
   {
     "name": "region4",
     "coordinates": [
@@ -52,10 +53,11 @@ Example of regions input file __regions.json__:
       ]
     ]
   }
-]'
+]
+```
 
 Both files must be placed inside a folder "inputFiles" in the project directory.
 
-###Output file:
+### Output file:
 
-The program produces a single output file __results.json__ inside a folder "outputFiles" in the project directory.
+The program produces a single output file ***results.json*** inside a folder "outputFiles" in the project directory.
