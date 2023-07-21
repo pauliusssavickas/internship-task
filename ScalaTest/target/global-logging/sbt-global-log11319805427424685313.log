@@ -1,0 +1,15 @@
+[debug] > Exec(all {file:/C:/Users/Paulius/Desktop/ScalaTest/}root/products {file:/C:/Users/Paulius/Desktop/ScalaTest/}root/test:products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\Paulius\Desktop\ScalaTest\target\scala-2.13\classes ...
+[warn] C:\Users\Paulius\Desktop\ScalaTest\src\main\scala\Main.scala:66:42: match may not be exhaustive.
+[warn] It would fail on the following inputs: (_, List(_)), (_, Nil)
+[warn]       polygon.sliding(2).foldLeft(false) { case (c, List(i, j)) =>
+[warn]                                          ^
+[warn] one warning found
+[info] done compiling
+[debug] Forcing garbage collection...
+[success] Total time: 3 s, completed Jul 21, 2023, 12:40:26 AM
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

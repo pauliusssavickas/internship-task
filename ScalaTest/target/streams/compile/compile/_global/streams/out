@@ -1,0 +1,5 @@
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Paulius\Desktop\ScalaTest\src\main\scala\Main.scala:61:46: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: (_, List(_)), (_, Nil)[0m
+[0m[[0m[33mwarn[0m] [0m[0m          polygon.sliding(2).foldLeft(false) { case (c, List(i, j)) =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

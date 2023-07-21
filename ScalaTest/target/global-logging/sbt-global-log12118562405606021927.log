@@ -1,0 +1,28 @@
+[debug] > Exec(all {file:/C:/Users/Paulius/Desktop/ScalaTest/}root/products {file:/C:/Users/Paulius/Desktop/ScalaTest/}root/test:products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\Paulius\Desktop\ScalaTest\target\scala-2.13\classes ...
+[error] C:\Users\Paulius\Desktop\ScalaTest\src\main\scala\Main.scala:36:49: reference to deriveDecoder is ambiguous;
+[error] it is imported twice in the same scope by
+[error] import io.circe.generic.extras.semiauto._
+[error] and import io.circe.generic.semiauto._
+[error]   implicit val regionDecoder: Decoder[Region] = deriveDecoder[Region]
+[error]                                                 ^
+[error] C:\Users\Paulius\Desktop\ScalaTest\src\main\scala\Main.scala:37:53: reference to deriveDecoder is ambiguous;
+[error] it is imported twice in the same scope by
+[error] import io.circe.generic.extras.semiauto._
+[error] and import io.circe.generic.semiauto._
+[error]   implicit val locationDecoder: Decoder[Location] = deriveDecoder[Location]
+[error]                                                     ^
+[error] C:\Users\Paulius\Desktop\ScalaTest\src\main\scala\Main.scala:38:61: reference to deriveEncoder is ambiguous;
+[error] it is imported twice in the same scope by
+[error] import io.circe.generic.extras.semiauto._
+[error] and import io.circe.generic.semiauto._
+[error]   implicit val resultRegionEncoder: Encoder[ResultRegion] = deriveEncoder[ResultRegion]
+[error]                                                             ^
+[error] three errors found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 0 s, completed Jul 21, 2023, 12:56:12 AM
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
