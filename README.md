@@ -64,7 +64,7 @@ Example of regions input file ***regions.json***:
 
 The program produces a single output file ***results.json*** inside a folder "outputFiles" in the project directory.
 
-### Launching the program
+### Launching the program:
 
 - Make sure you have Scala and sbt installed
 - Open PowerShell or similar terminal that supports sbt
